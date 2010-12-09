@@ -28,9 +28,18 @@ gem 'mysql'
 # and rake tasks are available in development mode:
 
 group :development do
-  gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'rspec-rails', '2.2.1'
 end
 
 group :development, :test do
-   gem 'rspec', '2.0.0.beta.18'
-end
+	  gem 'rspec', '2.2.0'
+	  gem 'webrat', '0.7.2'
+	  gem 'autotest-rails', '4.1.0'
+	  gem 'autotest', '4.4.4'
+	  gem 'test-unit', '2.1.1'
+	  gem 'spork', '0.8.4'
+	end
+
+
+
+
