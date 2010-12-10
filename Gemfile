@@ -33,7 +33,7 @@ end
 
 group :development, :test do
 	  gem 'rspec', '2.1.0'
-	  gem 'webrat', '0.7.2'
+	  gem 'webrat', '0.7.1'
 	  gem 'autotest-rails', '4.1.0'
 	  gem 'autotest', '4.4.4'
 	  gem 'test-unit', '2.1.1'

@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
-  
+  require 'application_helper'
+
   def home
     @title = "Home"
   end
